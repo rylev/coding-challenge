@@ -1,7 +1,7 @@
-struct NumArray {}
+pub struct NumArray {}
 
 impl NumArray {
-    pub fn new(mut nums: Vec<i32>) -> Self {
+    pub fn new(numbers: Vec<i32>) -> Self {
         todo!()
     }
 
