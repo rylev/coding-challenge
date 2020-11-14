@@ -29,10 +29,10 @@ Besides Rust and Cargo, the image comes with the following Rust related tooling:
 
 ### VS Code Extensions
 
-- [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer): an alternative rust language server to the RLS.
-- [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb): native debugger based on LLDB.
-- [Crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates): helps Rust developers managing dependencies with Cargo.toml.
-- [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare): collaborative, multi-user remote editing from directly within the editor.
+- [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer&WT.mc_id=rust-0000-rylevick): an alternative rust language server to the RLS.
+- [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb&WT.mc_id=rust-0000-rylevick): native debugger based on LLDB.
+- [Crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates&WT.mc_id=rust-0000-rylevick): helps Rust developers managing dependencies with Cargo.toml.
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare&WT.mc_id=rust-0000-rylevick): collaborative, multi-user remote editing from directly within the editor.
 
 ### Operating System
 
@@ -44,7 +44,7 @@ Besides Rust and Cargo, the image comes with the following Rust related tooling:
 
 #### Inital Creation
 
-For usage in VS Codespaces, you're going to want to head over to [online.visualstudio.com](https://online.visualstudio.com) and sign up for VS Codespaces (that process is outside the scope of these instructions). Once you've got an account and are signed in to [online.visualstudio.com](https://online.visualstudio.com), you're going to take the following steps:
+For usage in VS Codespaces, you're going to want to head over to [online.visualstudio.com](https://online.visualstudio.com/?WT.mc_id=rust-0000-rylevick) and sign up for VS Codespaces (that process is outside the scope of these instructions). Once you've got an account and are signed in to [online.visualstudio.com](https://online.visualstudio.com/?WT.mc_id=rust-0000-rylevick), you're going to take the following steps:
 
 - Ensure you're on the `/environments` page at [online.visualstudio.com/environments](https://online.visualstudio.com/environments)
 - In the top right corner, there'll be a "Create environment" button. Click this button, which will open up a panel from the right side of the screen. Fill in the details of this panel:
@@ -60,15 +60,15 @@ For usage in VS Codespaces, you're going to want to head over to [online.visuals
 
 #### Connecting to your Environment
 
-Once you've completed the Creation steps, your environment will be usable from Codespaces until you delete it. You can access it by going to [online.visualstudio.com](https://online.visualstudio.com) and selecting the vertical elipsis menu to connect to it from the browser or launch it in VS Code / VS Code Insiders.
+Once you've completed the Creation steps, your environment will be usable from Codespaces until you delete it. You can access it by going to [online.visualstudio.com](https://online.visualstudio.com/?WT.mc_id=rust-0000-rylevick) and selecting the vertical elipsis menu to connect to it from the browser or launch it in VS Code / VS Code Insiders.
 
 When inside of the environment you can change envrionments themselves from the command pallete with the `Codespaces: Connect`.
 
-> **Note:** See the [VS Online in the Browser](https://docs.microsoft.com/en-us/visualstudio/online/quickstarts/browser) quickstart for more information.
+> **Note:** See the [VS Online in the Browser](https://docs.microsoft.com/visualstudio/online/quickstarts/browser?WT.mc_id=rust-0000-rylevick) quickstart for more information.
 
-Additionally, if you've installedthe [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline) extension in VS Code locally, you'll be able to directly connect from VS Code itself.
+Additionally, if you've installedthe [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline&WT.mc_id=rust-0000-rylevick) extension in VS Code locally, you'll be able to directly connect from VS Code itself.
 
-> **Note:** See the [VS Online in VS Code](https://docs.microsoft.com/en-us/visualstudio/online/quickstarts/vscode) quickstart for more information.
+> **Note:** See the [VS Online in VS Code](https://docs.microsoft.com/visualstudio/online/quickstarts/vscode?WT.mc_id=rust-0000-rylevick) quickstart for more information.
 
 #### Working
 
